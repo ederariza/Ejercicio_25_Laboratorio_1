@@ -12,6 +12,26 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    int numero;
+    int digitos = 0;
+
+    cout << "Ingrese un numero: ";
+    cin >> numero;
+
+    int numero_nuevo = numero;
+    while (numero_nuevo > 0){
+
+        if (numero_nuevo % 10 != 0)
+            digitos += 1,
+            numero_nuevo = numero_nuevo / 10;
+
+     else
+            digitos += 1,
+            numero_nuevo = numero_nuevo / 10;
+
+    }
+
+    cout << "El numero " << numero  << " tiene " << digitos << " digitos " << endl;
+
     return 0;
 }
