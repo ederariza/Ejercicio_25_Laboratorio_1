@@ -25,7 +25,7 @@ int main()
             digitos += 1,
             numero_nuevo = numero_nuevo / 10;
 
-     else
+        else
             digitos += 1,
             numero_nuevo = numero_nuevo / 10;
 
